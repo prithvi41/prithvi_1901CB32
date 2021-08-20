@@ -3,8 +3,7 @@ def meraki_helper(n):
     for i in n:
         if(i<11):
             print("Yes - ",i ,"is a Meraki number")
-            count+=1
-            
+            count+=1  
         else:
             j=i
             flag=True
@@ -21,7 +20,7 @@ def meraki_helper(n):
                 count+=1
     print("the input list contains",count," meraki and", len(n)-count," non meraki numbers")
     
-meraki_helper(n)
+
 
 
 
