@@ -47,10 +47,10 @@ def generate_marksheet(name_dict, sub_name, ltp_dict, data_of_a_rollno,  int_gra
     sheet['A2']="Name of Student"      
     sheet.cell(row = 2, column = 2).value = name_dict[roll_no]   
     sheet['A3']="Discipline"         
-    Branch=roll_no[4:6]     #name of branch by slicing roll no at req places 
-    sheet['B3']=Branch           
+    Discipline=roll_no[4:6]     #name of branch by slicing roll no at req places 
+    sheet['B3']=Discipline           
     sheet['A4']="Semester No."       
-    sheet['A5']="Semester wise credit_of_a_course Taken"     
+    sheet['A5']="Semester wise credit Taken"     
     sheet['A6']="SPI"                            
     sheet['A7']="Total Credits Taken"            
     sheet['A8']="CPI" 
