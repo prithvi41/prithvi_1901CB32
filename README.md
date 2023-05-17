@@ -1,2 +1,2 @@
-# tuts_2021
+# Grading Module Generator
 CS384 Tuts Projects
